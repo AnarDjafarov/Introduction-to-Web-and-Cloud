@@ -127,7 +127,7 @@ body {
 
 footer {
     background-color: #9B51E0;
-    width: 100%;
+    width: 1600px;
     height: 48px;
     margin-top: 69px;
 }
@@ -208,9 +208,14 @@ footer {
     font-weight: normal;
     font-size: 28px;
     line-height: 33px;
+    text-decoration: none;
 }
 
-#nycHudson {
+#mainNav a:hover {
+    color: red;
+}
+
+#section1 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -221,15 +226,11 @@ footer {
     margin-top: 50px;
 }
 
-#fewLogos {
-    /*border : solid 3px yellow*/
-}
-
 .carLogo {
-    background-image:url(../images/Logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 16px;
+    background: url(../images/Logo.png) no-repeat left center;
+    background-size: 48px;
+    height: 48px;
+    width: 100%;
     margin-top: 16px;
     text-decoration: none;
     background-color: #171932;
@@ -237,13 +238,49 @@ footer {
 }
 
 .carLogo span {
-    margin-left: 16px;
+    padding-top: 16px;
+    margin-left: 64px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 50px;
     color: #FFFFFF;
-    align-items: center;
-    display: flex;
+}
+
+.sections2345 {
+    margin-top: 45px;
+    margin-left: 16px;
+    color: #FFFFFF;
+}
+
+.sections2345 h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+}
+
+.sections2345 p {
+    margin-top: 16px;
+    margin-left: 1px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#section3 {
+    padding-top: 26px;
+}
+
+#section4 {
+    padding-top: 26px;
+}
+
+#section5 {
+    padding-top: 26px;
 }
