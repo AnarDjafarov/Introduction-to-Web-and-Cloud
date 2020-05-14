@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, body, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+body {
+    background-image: linear-gradient(#505152, white);
+}
+
+.wrapper {
+    height: 935px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f7f8f9;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #363738;
+    display: flex;
+}
+
+#logo {
+    margin: 23px auto;
+    background-color: #a7c0d9;
+    display: block;
+    height: 55px;
+    width: 55px;
+    border-radius: 50px;    
+}
+
+#main1 {
+    display: inline-flex;
+    position: relative;
+    height: 830px;
+    width: 810px;
+}
+
+.box1{
+    position: relative;
+    border: 2px solid black;
+    top: 88px;
+    left: 23px;
+    height: 301px;
+    width: 177px;
+    background-color: white;
+}
+
+.box2 {
+    position: absolute;
+    border: 2px solid black;
+    top: 20px;
+    left: 353px;
+    height: 288px;
+    width: 413px;
+    background-color: white;
+}
+
+.box3 {
+    position: absolute;
+    border: 2px solid black;
+    top: 448px;
+    left: 282px;
+    height: 301px;
+    width: 170px;
+    background-color: white;
+}
+
+#asideIndex{
+    float: right;
+    height: 830px;
+    width: 185px;
+    border-left: 3px solid #363738;
+}
+
+#asideIndex ul{
+    list-style: none;
+    margin-top: 70px;
+}
+
+#asideIndex ul li{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#asideIndex a {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 66px;
+    background-color: #363738;
+    position: fixed;
+    bottom: 0;
+}
+
+
+
+#navLayout2 {
+    height: 170px;
+    position: relative;
+    background-color: rgb(82, 93, 129);
+}
+
+#navLayout2 a {
+    position: relative;
+    text-decoration: none;
+    margin-left: 150px;
+    top: 75px;
+    font-size: 30px;
+    color: white;
+}
+
+#navLayout2 a:hover {
+    color: white;
+    background-color: black;
+}
+
+#asideLayout2 {
+    width: 185px;
+    height: 650px;
+    border-right: 3px solid #363738;
+    display: inline-block;
+}
+
+#main2 {
+    position: relative;
+    display: inline-flex;
+    float: right;
+    height: 650px;
+    width: 810px;
+}
+
+.box4 {
+    position: absolute;
+    border: 2px solid black;
+    top: 68px;
+    left: 469px;
+    height: 85px;
+    width: 121px;
+    background-color: white;
+}
+.box5 {
+    position: absolute;
+    border: 2px solid black;
+    top: 68px;
+    left: 631px;
+    height: 85px;
+    width: 121px;
+    background-color: white;
+}
+.box6 {
+    position: absolute;
+    border: 2px solid black;
+    top: 413px;
+    left: 60px;
+    height: 110px;
+    width: 266px;
+    background-color: white;
+}
+.box7 {
+    position: absolute;
+    border: 2px solid black;
+    top: 237px;
+    left: 341px;
+    height: 286px;
+    width: 411px;
+    background-color: white;
+}
+
+#navLayout3 {
+    height: 170px;
+    position: relative;
+    background-image: linear-gradient(white, rgb(4, 10, 68));
+}
+
+#navLayout3 > button {
+    margin-top: 60px;
+    margin-left: 230px;
+}
+
+#main3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    min-height: 650px;
+    background-color: #f7f8f9;
+}
+
+article {
+    position: relative;
+    background-color: "#ffffff";
+    height: 315px;
+    width: 202px;
+    margin-top: 48px;
+    margin-left: 87px;
+    font-size: 200px;
+    text-align: center;
+    font-family: Open Sans;
+    border: 0.5px solid black;
+}
+
+@media only screen and (max-width: 570px) {
+    body {
+        width: 560px;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+    }
+    
+    #main3 {
+        width: 100%;
+        height: auto;
+        background-color: #f9f9f9;
+    }
+
+    #navLayout3 > button {
+        margin-top: 60px;
+        margin-left: 85px;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+    }
+
+    article {
+        margin-left: 7%;
+    }
+
+    #navLayout3 > a {
+        background-image: url("/images/icons8-menu-30.png");
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
