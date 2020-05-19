@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Formula one</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <!-- <a id="logo" href="index.html"></a> -->
+                <p>
+                    <span id="header1"> Formula One </span>
+                    <span id="header2"> Register to be a Formula driver </span>
+                </p>
+            </header>
+            <form name = "jonatan" action="http://html5-book.co.il/teach/forms/get_form2.php" method = "get" >
+
+                <div id="firstDivide">
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationTooltip01">Full Name: *
+                                <input type="text" class="form-control" id="validationTooltip01" required name="fullName" placeholder="Full Name" pattern="[A-Za-z]+ [A-Za-z]">
+                            </label>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <lable for="validationTooltip02">Password: *
+                                <input type="password" class="form-control" id="validationTooltip02" required name="pass" placeholder="Password" pattern=".{8,}">
+                            </lable>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <lable for="validationTooltip03">Email: *
+                                <input type="email" class="form-control" id="validationTooltip03" required name="mail" placeholder="Email">
+                            </lable>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationTooltip05">Website: *
+                                <input type="url" class="form-control" id="validationTooltip05" required title="Without this we can't know if you are rich enough for Formula" name="website" placeholder="Website">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div id="secondDivide">
+                    <label>Phone Number: *
+                        <input type="tel" required name="phone" placeholder="Phone Number" pattern="[0-9]{9,10}">
+                    </label>
+                    <br>
+
+                    <lable>Millions In The Bank:
+                        <input type="number" required name="coffee" value="10" min="3">
+                    </lable>
+                    <br>
+
+                    <label>How Much You Willing To Invest: (In millions) 1
+                        <input type="range" name="temper" min="1" max="999">999
+                    </label>
+
+                    <label>Address: 
+                        <textarea name="address" rows="2" cols="30"></textarea>
+                    </label>
+                </div>
+
+                <div id="thirdDivide">
+                     <label>Age:
+                        <select name="age">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                        </select>
+                    </lable>
+                    <br>
+
+                    <span>Gender: </span>
+                    <label>Male<input type="radio" name="gender" value="Male" checked="true"></label>
+                    <label>Female<input type="radio" name="gender" value="Female"></label>
+                    <br>
+
+                    <span>Will your family buy a group:</span>
+                    <label>Yes<input type="radio" name="answer" value="Yes"></label>
+                    <label>No<input type="radio" name="answer" value="No" checked="true"></label>
+                    <br>
+
+                    <span>Experience: </span>
+                    <label>F2<input type="checkbox" name="interests[]" value="F2"></label>
+                    <label>F3<input type="checkbox" name="interests[]" value="F3"></label>
+                    <label>Kart racing<input type="checkbox" name="interests[]" value="Kart racing"></label>
+                    <label>Le Mans 24<input type="checkbox" name="interests[]" value="Le Mans 24"></label>
+                </div>
+                <div id="fourthDivide">
+                    <div class="form-group row">
+                        <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer></footer>
+    </body>
+</html>

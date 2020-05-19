@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, body, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+body {
+    background-image: linear-gradient(#de1b28, #000000);
+}
+
+.wrapper {
+    background-image: url(/images/ferrari2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f7f8f9;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #630209;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header #header1 {
+    margin-top: 10px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+header #header2 {
+    display: flex;
+    margin-top: 10px;
+    height: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+footer {
+    width: 100%;
+    height: 66px;
+    background-color: #630209;
+    position: fixed;
+    bottom: 0;
+}
+
+#firstDivide {
+    height: 200px;
+    position: relative;
+    margin: 1% 10% 1% 10%;
+    padding: 1% 2%;
+    border: 1px solid black;
+    background-color: #f7f8f9;
+}
+
+#secondDivide {
+    height: 230px;
+    padding: 1% 2%;
+    position: relative;
+    margin: 1% 10% 1% 10%;
+    border: 1px solid black;
+    background-color: #f7f8f9;
+}
+
+#thirdDivide {
+    height: 150px;
+    position: relative;
+    margin: 1% 10% 1% 10%;
+    padding: 0.5% 2%;
+    border: 1px solid black;
+    background-color: #f7f8f9;
+}
+
+#fourthDivide {
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10% 0 10%;
+    padding-top: 16px;
+}
